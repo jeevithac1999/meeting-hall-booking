@@ -1,0 +1,272 @@
+body {
+  font-family: ABeeZee, sans-serif;
+}
+
+.nav-brand {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .nav-brand {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 992px) {
+  .nav-brand {
+    font-size: 2.8rem;
+  }
+}
+
+.looking-for-hall {
+  font-size: 2.5rem;
+  padding-bottom: 1.8%;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.book-room-btn {
+  /* color: rgb(224, 215, 255); */
+  /* font-size: 1rem; */
+  padding: 2% 8%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  /* border: 2px rgb(38, 149, 163) solid; */
+  font-family: ABeeZee, sans-serif;
+  
+}
+.book-room-btn:hover {
+  color: #ffffff;
+  /* background-color: rgb(140, 150, 206); */
+  border: 2px solid black !important;
+}
+
+
+@media (min-width: 768px) {
+  .book-room-btn {
+    font-size: 1.4rem;
+    padding: 0.5% 5%;
+  }
+}
+.book-room-l {
+  color: rgb(255, 255, 255);
+  /* font-size: 1rem; */
+  padding: 2% 8%;
+  border-radius: 10px;
+  background-color: #ff0000;
+  /* border: 2px rgb(38, 149, 163) solid; */
+  font-family: ABeeZee, sans-serif;
+  
+}
+.book-room-l:hover {
+  color: #ff0000;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black !important;
+}
+
+
+@media (min-width: 768px) {
+  .book-room-l {
+    font-size: 1.4rem;
+    padding: 0.5% 5%;
+  }
+}
+.big-img-container {
+  padding: 10% 0;
+}
+
+@media (min-width: 768px) {
+  .big-img-container {
+    padding: 4% 0;
+  }
+}
+.big-img {
+  width: 96%;
+  border-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.selected-room {
+  font-size: 1.25rem;
+  padding-bottom: 2%;
+}
+
+input[type=date]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  display: none;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  -webkit-appearance: none;
+  display: none;
+}
+
+.booking-dropdown {
+  width: 85%;
+  padding: 4% 0;
+  /* background-color: #c5fffc; */
+  color: rgb(0, 0, 0);
+  margin: 2% 0;
+  font-family: "Roboto";
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.booking-dropdown:hover {
+  background-color: #5bc3ff;
+  color: rgb(255, 255, 255);
+}
+.booking-dropdown:focus {
+  outline: none;
+  box-shadow: none;
+}
+.booking-dropdown-menu {
+  outline: none;
+}
+.booking-dropdown-item:hover {
+  background-color: rgb(255, 255, 255);
+}
+.booking-dropdown-item:active {
+  background-color: rgb(251, 255, 255);
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .booking-dropdown {
+    font-size: 1.2rem;
+  }
+}
+.room-display-message {
+  padding: 2% 0;
+  text-align: center;
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+}
+
+.rooms-display {
+  background-color: #d9ffff;
+  margin: 10% 2%;
+  padding: 3% 5%;
+  border-radius: 25px;
+}
+
+@media (min-width: 768px) {
+  .rooms-display {
+    margin: 2% 2.5%;
+  }
+}
+.room-key {
+  padding-top: 1%;
+  padding-bottom: 4.5%;
+  color: rgb(0, 0, 0);
+}
+
+.available-rooms {
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  font-family: Roboto, sans-serif;
+}
+
+.room-container {
+  margin:  1%;
+}
+
+.room {
+  background-color: rgb(0, 0, 0);
+  padding: 18px;
+  border-radius: 20px;
+  min-width: 80px;
+}
+
+.room-row {
+  margin-bottom: 10px;
+}
+
+.selecroom-room:hover {
+  cursor: pointer;
+}
+.selecroom-room:hover-row {
+  padding: 5px;
+}
+
+.full-room {
+  /* text-decoration-color: rgb(255, 0, 0); */
+  background-color:rgb(255, 0, 0);
+  /* border: solid 2px rgb(255, 255, 255); */
+  border-radius: 50%;
+  padding: 1px 10px;
+  margin: 3px;
+}
+
+.empty-room {
+  
+  background-color: rgb(7, 252, 19);
+  border-radius: 50%;
+  padding: 1px 10px;
+  margin: 3px;
+}
+
+.room-name {
+  color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+  padding-top: 15px;
+  font-family: Roboto, sans-serif;
+}
+
+.reservation-details-container {
+  padding: 0 4%;
+  padding-bottom: 5%;
+}
+
+.reservation-details {
+  margin: 0 2%;
+  margin-bottom: 5%;
+}
+
+@media (min-width: 768px) {
+  .reservation-details {
+    margin-bottom: 0;
+  }
+}
+.reservation-input:focus {
+  border-color: black;
+  box-shadow: 0 0;
+}
+
+.reservation-error {
+  color: #ff0000;
+  font-size: 1.1rem;
+  padding-bottom: 3%;
+}
+
+.thanks-header {
+  padding: 5% 0;
+  padding-top: 10%;
+  font-size: 2.5rem;
+}
+
+.thanks-subtext {
+  font-size: 1.2rem;
+  padding: 2%;
+}
+
+
+
+@media (min-width: 768px) {
+  .thanks-header {
+    font-size: 5.5rem;
+  }
+
+  .thanks-subtext {
+    font-size: 2.2rem;
+  }
+}
+
+.profile{
+    margin: 0 auto;
+    align-content: center;
+    padding:5% 30% 1% 40%
+}
+
+/*# sourceMappingURL=index.css.map */
